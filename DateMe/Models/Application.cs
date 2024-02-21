@@ -1,0 +1,18 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DateMe.Models
+{
+    public class Application
+    {
+        [Key]
+        [Required]
+        public int ApplicationID { get; set; } // set up getter and setter
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Major { get; set; }
+        public bool CreeperStalker {  get; set; }        
+
+    }
+}
